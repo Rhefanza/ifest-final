@@ -1,0 +1,56 @@
+{
+  "train": {
+    "comma_cells": 322387,
+    "cells": 30302400,
+    "comma_rate": 0.010638992291039654,
+    "month_variants": 47,
+    "to_id_dirty": 4377,
+    "aux_cols": [
+      "aux_noise_00",
+      "aux_constant_01",
+      "aux_twin_unit_02",
+      "aux_junk_id_03",
+      "aux_fake_mm_04",
+      "aux_noise_05",
+      "aux_constant_06",
+      "aux_twin_unit_07",
+      "aux_junk_id_08",
+      "aux_fake_mm_09",
+      "aux_noise_10",
+      "aux_constant_11",
+      "aux_twin_unit_12",
+      "aux_junk_id_13",
+      "aux_fake_mm_14",
+      "aux_noise_15",
+      "aux_constant_16"
+    ],
+    "nan_after_parse": 0.017750772216062093
+  },
+  "test": {
+    "comma_cells": 10271,
+    "cells": 954240,
+    "comma_rate": 0.010763539570757881,
+    "month_variants": 16,
+    "to_id_dirty": 133,
+    "aux_cols": [
+      "aux_noise_00",
+      "aux_constant_01",
+      "aux_twin_unit_02",
+      "aux_junk_id_03",
+      "aux_fake_mm_04",
+      "aux_noise_05",
+      "aux_constant_06",
+      "aux_twin_unit_07",
+      "aux_junk_id_08",
+      "aux_fake_mm_09",
+      "aux_noise_10",
+      "aux_constant_11",
+      "aux_twin_unit_12",
+      "aux_junk_id_13",
+      "aux_fake_mm_14",
+      "aux_noise_15",
+      "aux_constant_16"
+    ],
+    "nan_after_parse": 0.01769156606304494
+  }
+}

@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js build
+.next/
+/out/
+build/
+dist/
+
+# Env
+.env*.local
+.env
+
+# Large ML data & artifacts
+*.npz
+*.npy
+*.parquet
+train.csv
+test_public.csv
+*.csv.gz
+ml/out/serving_models/
+
+# Python
+catboost_info/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

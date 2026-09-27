@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 215 28% 97%;
+    --foreground: 216 41% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 216 41% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 216 41% 18%;
+
+    --primary: 216 41% 18%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 214 61% 46%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 215 20% 92%;
+    --muted-foreground: 218 14% 53%;
+
+    --accent: 172 70% 36%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 4 58% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 218 18% 88%;
+    --input: 218 18% 88%;
+    --ring: 214 61% 46%;
+
+    --radius: 0.625rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight text-navy;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Print Styles */
+@media print {
+  aside, header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kilat": {
+    "name": "kilat",
+    "n_train": 219,
+    "n_test_new": 208,
+    "stress_rate": 0.2951080050825921,
+    "p_onset": 0.17778295115042875,
+    "p_continue": 0.5742592592592592,
+    "pct_episode_ge_3": 0.27011866235167203,
+    "precision_siaga": 0.634607564050427,
+    "coverage_siaga": 0.2799605310369573,
+    "coverage_top30": 0.7592393254395408
+  },
+  "airtanah": {
+    "name": "airtanah",
+    "n_train": 1111,
+    "n_test_new": 292,
+    "stress_rate": 0.17830779744484612,
+    "p_onset": 0.06316562614763128,
+    "p_continue": 0.7049532512330177,
+    "pct_episode_ge_3": 0.3661758773699072,
+    "precision_siaga": 0.7921345559750895,
+    "coverage_siaga": 0.47261556465769455,
+    "coverage_top30": 0.8310415447630193
+  },
+  "irigasi": {
+    "name": "irigasi",
+    "n_train": 69,
+    "n_test_new": 8,
+    "stress_rate": 0.2823707694898131,
+    "p_onset": 0.1596944343397599,
+    "p_continue": 0.5989010989010989,
+    "pct_episode_ge_3": 0.27706283118849356,
+    "precision_siaga": 0.6457453228726614,
+    "coverage_siaga": 0.3190220632081097,
+    "coverage_top30": 0.8059033989266547
+  },
+  "campuran": {
+    "name": "campuran",
+    "n_train": 797,
+    "n_test_new": 278,
+    "stress_rate": 0.20794557427147378,
+    "p_onset": 0.11154021330701788,
+    "p_continue": 0.572191548482552,
+    "pct_episode_ge_3": 0.2599732932732432,
+    "precision_siaga": 0.6556499261447563,
+    "coverage_siaga": 0.2485041464012037,
+    "coverage_top30": 0.695335736029952
+  }
+}

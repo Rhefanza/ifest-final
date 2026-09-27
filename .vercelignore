@@ -1,0 +1,7 @@
+# Ignore offline ML scripts and large raw files
+ml/
+tests/
+*.npz
+*.csv
+!public/samples/*.csv
+docs/

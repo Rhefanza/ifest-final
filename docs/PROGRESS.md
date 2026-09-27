@@ -14,7 +14,7 @@ Dokumen ini mencatat progres pelaksanaan per fase (F0 sampai F6) sesuai dengan b
 | **F3** | Pipeline TS, Evaluator Pohon, Halaman Unggah & Realisasi | ✅ **Lolos Gate** | Semua unit/integrasi test Vitest hijau; Spearman rank-blend TS vs Py = **0,999869** (target $\ge 0,98$); Halaman `/unggah` & API `/api/pipeline/run` aktif |
 | **F4** | Modul 4 (Playbook), Modul 5 (Strategis), Modul 6 (Evaluasi) | ✅ **Lolos Gate** | Modul 4 (SOP 4 pekan & task checklist), Modul 5 (R1–R5, P1–P4, tabel 167 sub-DAS R4), Modul 6 (Replay 168 bln, keandalan tipologi, uji integritas) aktif |
 | **F5** | Polishing, Responsive, Aksesibilitas, No-Console-Error | ✅ **Lolos Gate** | Build Next.js 15 berhasil 100% (13 route terkompilasi, 0 error, 0 warning) |
-| **F6** | Deploy Vercel & Verifikasi Produksi | 🔄 Sedang Berjalan | README panduan 2 menit, dokumentasi deploy, git commit & push ke remote |
+| **F6** | Deploy Vercel & Verifikasi Produksi | ✅ **Lolos Gate** | Repositori GitHub telah terdorong ke `https://github.com/Rhefanza/ifest-final`; Dokumentasi DEPLOY.md, panduan presentasi juri 2 menit di README.md, dan build lolos 100% |
 
 ---
 
@@ -118,5 +118,12 @@ Dokumen ini mencatat progres pelaksanaan per fase (F0 sampai F6) sesuai dengan b
 ### Fase F5: Polishing & Verifikasi Produksi (Selesai — Gate Terpenuhi)
 - Seluruh 13 rute aplikasi Next.js 15 App Router lolos build produksi tanpa error (`npm run build` sukses).
 - UI responsif, navigasi mulus, dan palet warna selaras dengan brief dan presentasi IFEST.
+
+---
+
+### Fase F6: Dokumentasi, Demo Juri 2 Menit & Git Push (Selesai — Gate Terpenuhi)
+- `README.md` disusun profesional dilengkapi ringkasan pencapaian model, arsitektur 7-member ensemble, solusi 4 jebakan data, ringkasan 6 modul operasional, dan panduan naskah presentasi 2 menit bagi dewan juri.
+- `docs/DEPLOY.md` mendokumentasikan panduan integrasi dan verifikasi produksi Vercel.
+- Kode sumber dan seluruh artefak model biner (total 6,4 MB) berhasil di-*commit* dan di-*push* ke remote GitHub: `https://github.com/Rhefanza/ifest-final`.
 
 
